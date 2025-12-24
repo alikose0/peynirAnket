@@ -50,7 +50,6 @@ int main()
             {                                                   // okunan değer int ise fscanf fonksiyonu '1' değeri döndürür
                 printf("Dosya format hatasi!\n");
                 fclose(pDosya);
-                system("pause");
                 return 1;
             }
 
@@ -66,7 +65,6 @@ int main()
                     "%d. peynir, %d. aile gecersiz puan vermistir: %d\n",
                     i + 1, j + 1, tmp);
                 fclose(pDosya);
-                system("pause");
                 return 1;
             }
         }
